@@ -54,6 +54,8 @@ global.mess = {
 }
 //thumbnail
 global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic0.jpg')
+global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic0.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic1.jpg") //ur error pic
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
